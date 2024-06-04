@@ -59,6 +59,7 @@ Al ejecutar el proyecto se crea una carpeta data donde se guardan los datos regi
 
 4. Estructura del proyecto
 
+```sh
 personal-finances-utility/
 ├── src/
 │   ├── main/
