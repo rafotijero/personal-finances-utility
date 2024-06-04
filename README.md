@@ -62,6 +62,7 @@ Al ejecutar el proyecto se crea una carpeta data donde se guardan los datos regi
 ```sh
 personal-finances-utility/
 ├── src/
+│   ├── data/
 │   ├── main/
 │   │   ├── java/
 │   │   │   ├── org/
@@ -72,7 +73,7 @@ personal-finances-utility/
 │   │   │   │   │   ├── util/
 │   │   │   │   │   └── view/
 │   │   └── resources/
-│   │       └── data/
+│   │    
 ├── target/
 ├── pom.xml
 └── README.md
