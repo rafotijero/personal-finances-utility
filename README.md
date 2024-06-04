@@ -29,3 +29,51 @@ La aplicación de finanzas personales es una aplicación diseñada para gestiona
    ```sh
    git clone https://github.com/tu-usuario/finances-tracker.git
    cd main
+
+2. Uso del Proyecto:
+
+   Ejecutar el jar en el IDE de su preferencia y saldrá un menú de Consola con múltiples opciones en donde podrá seleccionar una opción:
+   Seleccione una opción:
+   ```sh
+   1. Gestionar categorías de cuenta
+   2. Gestionar cuentas
+   3. Gestionar categorías de gasto
+   4. Gestionar categorías de ingreso
+   5. Gestionar monedas
+   6. Gestionar ingresos
+   7. Gestionar gastos
+   8. Procesar Transacciones
+   0. Salir
+
+Registro de categoría cuenta puede ser: "Ahorros", "Corriente", "Crédito", "Mancomunada"
+Registro de cuentas puede ser: "Cuenta Sueldo", "Tarjeta de Crédito"
+Registro de categoría gasto: "Alimentos", "Transporte", "Deudas"
+Registro de categoría ingreso: "Sueldo", "Bono", "negocio"
+Registro de monedas: "Dólares", "Pesos", "Soles"
+Registro de ingresos: "Quincena", "Salario mensual", "Bono"
+Registro de gastos: "Hipoteca", "Delivery", "Pasajes"
+Registro de Transacciones: Aquí se relacionan los Ingresos, Gastos y Cuentas. En la opción de procesar se actualiza el saldo.
+
+3. Base de datos
+Al ejecutar el proyecto se crea una carpeta data donde se guardan los datos registrados en archivos json
+
+4. Estructura del proyecto
+
+personal-finances-utility/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   ├── org/
+│   │   │   │   ├── tijfuen/
+│   │   │   │   │   ├── controller/
+│   │   │   │   │   ├── model/
+│   │   │   │   │   ├── service/
+│   │   │   │   │   ├── util/
+│   │   │   │   │   └── view/
+│   │   └── resources/
+│   │       └── data/
+├── target/
+├── pom.xml
+└── README.md
+
+
