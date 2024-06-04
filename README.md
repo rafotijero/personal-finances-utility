@@ -28,4 +28,4 @@ La aplicación de finanzas personales es una aplicación diseñada para gestiona
 1. Clona el repositorio del proyecto:
    ```sh
    git clone https://github.com/tu-usuario/finances-tracker.git
-   cd finances-tracker
+   cd main
